@@ -235,6 +235,7 @@ footer a {
 
   .page {
     display: flex;
+    max-width: 120rem;
     justify-content: space-between;
   }
 
