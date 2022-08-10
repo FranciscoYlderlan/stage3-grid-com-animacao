@@ -233,9 +233,14 @@ footer a {
     --cl-texting: hsla(0, 0%, 100%);
     --an-delay: 1s;
   }
-
+  body {
+    max-width: 100vw;
+    max-height: 100vh;
+  }
   .page {
     display: flex;
+    max-width: 150rem;
+    max-height: 100%;
     justify-content: space-between;
   }
 
@@ -250,7 +255,7 @@ footer a {
     animation-timing-function: var(--an-timing-function);
     animation-delay: var(--an-delay);
     animation-fill-mode: var(--an-fill-mode);
-    max-height: 100vh;
+    max-height: 100%;
   }
   .logomarca {
     max-width: 100%;
@@ -261,7 +266,7 @@ footer a {
   .container {
     margin-right: 5rem;
     max-width: 65%;
-    max-height: 100vh;
+    max-height: 100%;
   }
   main {
     grid-template-areas: "A B E" "C B F" "C D F";
